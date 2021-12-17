@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(30, 30, 30);
+    color: rgb(200,200,200);
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    height: auto; /* required to allow content to expand vertically without overflow */
+    width: auto;
+    min-height: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    grid-gap: 2px 2px;
+    grid-template-rows: 10% 30% 20% 30% 10%;
+    grid-template-columns: 30% 40% 30%;
+}
+
+header {
+    display: flex;
+    min-height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px){
+
+    .body-layout{
+        grid-template-rows: repeat(8, 12.5%);
+        grid-template-columns: 100%;
+    }
+
+    .footer-icon{
+        width: 18px; height: 18px; margin: 0px 7.5px;
+    }
+
+    .social{
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    header div{
+        margin: 0px 15px;
+    }
+    header div i{
+        transition: 0.3s;    
+    }
+
+    footer div div img{
+        transition: 0.3s;    
+    }
+
+    header div i:hover{
+        color: rgb(150, 150, 150);    
+    }
+
+    header div h1{
+        font-size: 18px;
+        transition: 0.3s;
+    }
+    .itenary{
+        transition: 0.3s;
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (min-width: 768px){
+    html { overflow-y: hidden; }
+    .body-layout{
+        grid-template-rows: 10% 30% 25% 25% 10%;
+        grid-template-columns: 30% 40% 30%;
+    }
+
+    .footer-icon{
+        transition: 0.3s;
+        width: 30px; height: 30px; margin: 0px 10px;
+    } 
+    .footer-icon:hover{
+        transition: 0.3s;
+        width: 39px; height: 39px; margin: 0px 10px;
+    } 
+
+    header div{
+        margin: 0px 20px;
+    }
+
+    header div h1{
+        font-size: 30px;
+        transition: 0.3s;
+    }
+
+    header div i{
+        transition: 0.3s;    
+    }
+    header div i:hover{
+        color: rgb(150, 150, 150);    
+    }
+
+    .itenary{
+        transition: 0.3s;
+        font-size: 0.8em;
+    }
+
+    .itenary:hover{
+        background-color: rgb(20, 20, 20);
+        transition: 0.3s;
+    }
+
+    .itenary-icon{
+        transition: 0.3;
+    }
+
+    .itenary-icon:hover{
+        transition: 0.3;
+        scale: 110%;
+    }
+
+    .social{
+        font-size: 30px;
+        margin: 20px;
+    }
+}
