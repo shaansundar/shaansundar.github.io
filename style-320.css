@@ -1,0 +1,100 @@
+
+@media screen and (min-width: 320px) {
+    body{
+        grid-template-columns: 100%;
+        grid-template-rows: 10% auto auto auto auto auto auto auto auto;
+        max-width: 100%; 
+    }
+
+    div h3{
+        font-size: 10px;
+        margin: 0;
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+
+    
+    footer{
+        grid-column-start: span 10;
+        grid-row-start: 3;
+        display: flex;
+        border: rgb(69,69,69) 1px solid;
+    }
+
+    h1{
+        margin: 0px 10px;
+        font-size: 15px;
+    }
+    header{
+        grid-column-start: span 10;
+        grid-row-start: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: rgb(69,69,69) 1px solid;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+    i{
+        font-size: 15px;
+        margin: 10px;
+        transition: 0.3s;
+    }
+    section{
+        display: flex;
+        margin: 0px;
+        padding: 10px;
+        border: rgb(69,69,69) 1px solid;
+    }
+
+    .achievements{
+        grid-column-start: 1;
+        grid-row-start: 6;
+    }
+
+    .certification{
+        grid-column-start:1;
+        grid-row-start: 4;
+    }
+
+    .coffee{
+        grid-column-start: 1;
+        grid-row-start: 9;
+    }
+
+    .education{
+        grid-column-start: 1;
+        grid-row-start: 7;   
+    }
+
+    .footer-icon{
+        transition: 0.3s;
+        width: 15px; height: 15px; margin: 5px 10px;
+    } 
+
+    .experience{
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+
+    .experience div{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20% 50% 30%;
+        grid-row: inherit;
+    }
+
+    .projects{
+        grid-column-start: 1;
+        grid-row-start: 5;
+    }
+
+    .testimonials{
+        grid-column-start:1;
+        grid-row-start: 8;
+    }
+
+}
+
