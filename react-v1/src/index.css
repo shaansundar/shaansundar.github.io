@@ -1,0 +1,32 @@
+@media screen and (max-width : 768px) {
+  html{
+    overflow: auto;
+  }
+}
+
+@media screen and (min-width : 768px) {
+  html{
+    overflow: hidden;
+  }
+}
+
+body {
+  background-color: rgb(30,30,30);
+  /* background: linear-gradient(30deg, rgba(134,46,110,1) 0%, rgba(95,42,95,1) 33%, rgba(24,32,68,1) 100%); */
+  /* background: linear-gradient(30deg, rgba(246,61,154,1) 0%, rgba(190,53,132,1) 25%, rgba(134,46,110,1) 50%, rgba(95,42,95,1) 75%, rgba(24,32,68,1) 100%); */
+  /* min-height: 100vh; */
+  font-family: -apple-system, BlinkMacSystemFont,  'Roboto', 'Helvetica Neue', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  min-height: 97.5vh;
+}

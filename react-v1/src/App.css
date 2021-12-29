@@ -1,0 +1,28 @@
+@media screen and (min-width: 768px) {
+  .App {
+    text-align: center;
+    background-color: rgb(30,30,30);
+    /* background: linear-gradient(30deg, rgba(134,46,110,1) 0%, rgba(95,42,95,1) 33%, rgba(24,32,68,1) 100%); */
+    /* background: linear-gradient(30deg, rgba(246,61,154,1) 0%, rgba(190,53,132,1) 25%, rgba(134,46,110,1) 50%, rgba(95,42,95,1) 75%, rgba(24,32,68,1) 100%); */
+    min-height: 97.5vh;
+    max-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(10, 9.75vw);
+    grid-template-rows: repeat(10, 9.75vh);
+    margin : 10px;
+  }  
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    text-align: center;
+    background-color: rgb(30,30,30);
+    /* background: linear-gradient(30deg, rgba(134,46,110,1) 0%, rgba(95,42,95,1) 33%, rgba(24,32,68,1) 100%); */
+    /* background: linear-gradient(30deg, rgba(246,61,154,1) 0%, rgba(190,53,132,1) 25%, rgba(134,46,110,1) 50%, rgba(95,42,95,1) 75%, rgba(24,32,68,1) 100%); */
+    min-height: 97.5vh;
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(18, 61px);
+    margin : 10px;
+  }  
+}

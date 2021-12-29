@@ -1,0 +1,219 @@
+@media screen and (min-width: 872px) {
+    .Entry{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Entry div{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .Experience-Icon{
+        transition: 0.2s;
+        width: min(6vw, 6vh); 
+        height: min(6vw, 6vh); 
+        margin: 5px 10px;
+    }
+
+    .Entry div div{
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .Entry h5{
+        color: rgb(150,150,150);
+        margin: 0 1vw;
+        font-size: 1vw;
+        font-weight: 100;
+        font-style: italic;
+        margin: 0 0 0 2vw;
+    }
+    
+    .Entry div h2{
+        transition: 0.2s;
+        margin:0;
+        color: rgb(220,220,220);
+        font-size: 1.35vw;
+        font-weight: lighter;
+    }
+
+    .Entry div h3{
+        transition: 0.2s;
+        margin: 5px 0px;
+        font-size: 1vw;
+        color: rgb(150,150,150);
+        font-weight: lighter;
+    }
+
+    .Experience-Flex{
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+
+    .Experience-Flex h1{
+        z-index: -2;
+        position: absolute;
+        margin: auto;
+        top: 35%;
+        left: 0;
+        right: 0;
+        font-size: 6vw;
+        color: rgba(40,40,40,0.75);
+    }
+}
+@media screen and (max-width: 872px) {
+    .Entry{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Entry div{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .Experience-Icon{
+        transition: 0.2s;
+        width: 40px; height: 40px; margin: 5px 10px;
+    }
+
+    .Entry div div{
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .Entry h5{
+        /* color: rgb(150,150,150);
+        margin: 0 5px;
+        font-size: 10px;
+        font-weight: 100;
+        font-style: italic;
+        margin: 0 0 0 2vw; */
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .Entry div h2{
+        transition: 0.2s;
+        margin:0;
+        color: rgb(220,220,220);
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
+    .Entry div h3{
+        transition: 0.2s;
+        margin: 5px 0px;
+        font-size: 10px;
+        color: rgb(150,150,150);
+        font-weight: lighter;
+    }
+
+    .Experience-Flex{
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+
+    .Experience-Flex h1{
+        z-index: -2;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 40%;
+        font-size: 6vw;
+        color: rgba(40,40,40,0.75);
+    }
+}
+@media screen and (max-width: 767px) {
+    .Entry{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .Entry div{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .Experience-Icon{
+        transition: 0.2s;
+        width: min(5vw, 5vh); height: min(5vw,5vh); margin: 5px 10px;
+    }
+
+    .Entry div div{
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content:space-between;
+    }
+
+    .Entry div h5{
+        position: absolute;
+        visibility: hidden;
+    }
+    
+    .Entry div div h2{
+        transition: 0.2s;
+        margin:0;
+        color: rgb(220,220,220);
+        font-size: min(3.5vw, 3.5vh);
+        font-weight: lighter;
+    }
+
+    .Entry div div h3{
+        transition: 0.2s;
+        margin: 0 0 0 2vw;
+        font-size: min(2.5vw, 2.5vh);
+        color: rgb(150,150,150);
+        font-weight: lighter;
+    }
+
+    .Experience-Flex{
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+    }
+
+    .Experience-Flex h1{
+        z-index: -2;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 40%;
+        font-size: 6vw;
+        color: rgba(40,40,40,0.75);
+    }
+}

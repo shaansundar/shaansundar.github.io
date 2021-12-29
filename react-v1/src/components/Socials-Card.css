@@ -1,0 +1,214 @@
+@media screen and (min-width: 872px) {
+    .Social-Flex{
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Social-Flex h1{
+        z-index: -2;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        font-size: 6vw;
+        color: rgba(40,40,40,0.75);
+    }
+
+    .LinkedIn{
+        color: rgb(200,200,200);
+        font-size: 3.5vw;
+        transition: 0.2s;
+    }
+    
+    .LinkedIn:hover{
+        color: rgb(10, 102, 194); 
+        font-size: 3.5vw;
+        transition: 0.2s;
+    }
+
+    .Telegram{
+        color: rgb(200,200,200);
+        font-size: 3.5vw;
+        transition: 0.2s;
+    }
+    
+    .Telegram:hover{
+        color: rgb(54, 174, 226);
+        font-size: 3.5vw;
+        transition: 0.2s;
+    }
+
+    .Email{
+        color: rgb(200,200,200);
+        font-size: 3.5vw;
+        transition: 0.2s;
+    }
+    
+    .Email:hover{
+        color: rgb(227, 64, 51);
+        font-size: 3.5vw;
+        transition: 0.2s;
+    }
+
+    .GitHub{
+        color: rgb(200,200,200);
+        font-size: 3.5vw;
+        transition: 0.2s;
+    }
+    
+    .GitHub:hover{
+        color: rgb(255,255,255);
+        font-size: 3.5vw;
+        transition: 0.2s;
+    }
+
+    
+}
+@media screen and (max-width: 872px) {
+    .Social-Flex{
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Social-Flex h1{
+        z-index: -2;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        font-size: 6vw;
+        color: rgba(40,40,40,0.75);
+    }
+
+    .LinkedIn{
+        color: rgb(200,200,200);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+    
+    .LinkedIn:hover{
+        color: rgb(10, 102, 194); 
+        font-size: 32px;
+        transition: 0.2s;
+    }
+
+    .Telegram{
+        color: rgb(200,200,200);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+    
+    .Telegram:hover{
+        color: rgb(54, 174, 226);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+
+    .Email{
+        color: rgb(200,200,200);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+    
+    .Email:hover{
+        color: rgb(227, 64, 51);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+
+    .GitHub{
+        color: rgb(200,200,200);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+    
+    .GitHub:hover{
+        color: rgb(255,255,255);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .Social-Flex{
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Social-Flex h1{
+        z-index: -2;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        font-size: 6vw;
+        color: rgba(40,40,40,0.75);
+    }
+
+    .LinkedIn{
+        color: rgb(200,200,200);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+    
+    .LinkedIn:hover{
+        color: rgb(10, 102, 194); 
+        font-size: 32px;
+        transition: 0.2s;
+    }
+
+    .Telegram{
+        color: rgb(200,200,200);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+    
+    .Telegram:hover{
+        color: rgb(54, 174, 226);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+
+    .Email{
+        color: rgb(200,200,200);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+    
+    .Email:hover{
+        color: rgb(227, 64, 51);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+
+    .GitHub{
+        color: rgb(200,200,200);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+    
+    .GitHub:hover{
+        color: rgb(255,255,255);
+        font-size: 32px;
+        transition: 0.2s;
+    }
+}

@@ -1,0 +1,142 @@
+@media screen and (min-width: 767px) {
+    .Projects-Flex{
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(auto,3);
+    }
+
+    .Projects-Flex h1{
+        /* top: 50%; */
+        /* bottom: 50%; */
+        z-index: -2;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 15%;
+        font-size: 6vw;
+        color: rgba(40,40,40,0.75);
+    }
+
+    .Projects-List{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 33%);
+    }
+
+    .Projects-List div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Projects-List div img{
+        width: min(6vw, 6vh); 
+        height: min(6vw, 6vh);  
+        margin: 10px;
+    }
+    .Projects-List div div{
+        margin-left: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .Projects-List div div h2{
+        transition: 0.2s;
+        margin:0;
+        color: rgb(220,220,220);
+        font-size: 1.5vw;
+        font-weight: lighter;
+    }
+
+    .Projects-List div div h3{
+        transition: 0.2s;
+        margin: 5px 0px;
+        font-size: 1.2vw;
+        color: rgb(150,150,150);
+        font-weight: lighter;
+    }
+
+}
+@media screen and (max-width: 767px) {
+    .Projects-Flex{
+        transition: 0.2s;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(auto,33%);
+    }
+
+    .Projects-Flex h1{
+        /* top: 50%; */
+        /* bottom: 50%; */
+        z-index: -2;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 25%;
+        font-size: 8vw;
+        color: rgba(40,40,40,0.75);
+    }
+
+    .Projects-List{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, 33%);
+    }
+
+    .Projects-List div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .Projects-List div img{
+        width: min(5vw, 5vh); 
+        height: min(5vw, 5vh);  
+        margin: 10px;
+    }
+    .Projects-List div div{
+        margin-left: 10px;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .Projects-List div div h2{
+        transition: 0.2s;
+        margin:0;
+        color: rgb(220,220,220);
+        font-size: min(3vw, 3vh);
+        font-weight: lighter;
+    }
+
+    .Projects-List div div h3{
+        transition: 0.2s;
+        margin: 0 0 0 2vw;
+        font-size: min(2vw, 2vh);
+        color: rgb(150,150,150);
+        font-weight: lighter;
+    }
+}
