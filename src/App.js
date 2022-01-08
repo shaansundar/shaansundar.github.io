@@ -7,6 +7,7 @@ import './components/Experience-Card.css';
 import './components/Achievement-Card.css';
 import './components/Education-Card.css';
 import './components/Projects-Card.css';
+import './components/Coffee-Card.css';
 import EthWallet from './components/eth-wallet'
 import useMediaQuery from '@mui/material/useMediaQuery';
 import {GitHub,LinkedIn,Telegram,Email} from '@mui/icons-material';
@@ -90,7 +91,15 @@ function App() {
           </div>
       </div>
       <div className="Card" style={s768 === true ? divStyle(1,9,3,2) : divStyle(17,1,2,10)}>
-            {/* <img src="img/EthWallet.png" alt="" srcset="" style={{height:'min(20vh,20vw)',width:'min(20vh,20vw)'}} /> */}
+            <div className="Coffee-Flex">
+                  <div>
+                        <h2>Use This for Coffee!</h2>
+                        <h5>Supports ETH/AVAX/BSC/MATIC/FTM</h5>
+                  </div>
+                  <a href="https://etherscan.com/address/0xa7f70eB64C0a33ed05AAc59A5f8d461842eda585">
+                        <img src="img/ethWallet.svg" alt="Ethereum/BSC/AVAX/MATIC Wallet" srcset="" />  
+                  </a>
+            </div> 
       </div>
       <div className="Card" style={s768 === true ? divStyle(1,5,3,4) : divStyle(9,1,3,10)}>
             <div className="Achievements-Flex">
