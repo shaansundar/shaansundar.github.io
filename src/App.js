@@ -97,7 +97,7 @@ function App() {
                         <h5>Supports ETH/AVAX/BSC/MATIC/FTM</h5>
                   </div>
                   <a href="https://etherscan.com/address/0xa7f70eB64C0a33ed05AAc59A5f8d461842eda585">
-                        <img src="img/ethWallet.svg" alt="Ethereum/BSC/AVAX/MATIC Wallet" srcset="" />  
+                        <img src="img/ethWallet.png" alt="Ethereum/BSC/AVAX/MATIC Wallet" style={{height:'100px', width:'100px'}} srcset="" />  
                   </a>
             </div> 
       </div>
